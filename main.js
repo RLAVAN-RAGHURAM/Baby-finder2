@@ -54,6 +54,7 @@ sound.stop();
 if(document.getElementById("p").innerHTML!="Baby is there"){
 console.log("rvdcuf");
 sound.play("");
+document.getElementById("t").innerHTML="Baby is not here";
 }
 }
 document.getElementById("p").innerHTML="";
